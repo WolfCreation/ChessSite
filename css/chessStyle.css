@@ -1,0 +1,84 @@
+body{
+
+    background-color: #122b40;
+}
+#Up_Name{
+    color: yellow;
+    font-size: 50px;
+}
+#Chess_Name{
+    font-size: 30px;
+    color: yellow;
+}
+.upRow{
+    background-color: black;
+
+}
+
+.black{
+    width: 80px;
+    height: 80px;
+    background-color:black;
+}
+.white{
+    width: 80px;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+#container{
+
+    padding-top: 50px;
+    padding-left: 250px;
+}
+
+.numb{
+    color: whitesmoke;
+    height: 80px;
+    width: 80px;
+    background-color: #cd0707;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.letters{
+    height: 80px;
+    width: 80px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    background-color: #cd0707;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+.white:hover{
+    box-shadow: inset 0px 0px 10px 2px #0000ff;
+}
+.black:hover{
+    box-shadow: inset 0px 0px 10px 2px #0000ff;
+}
+
+.higlightedBoxes{
+    -webkit-box-shadow: inset 0px 0px 6px 1px #3399ff;
+    -moz-box-shadow: inset 0px 0px 6px 1px #3399ff;
+    box-shadow: inset 0px 0px 6px 1px #3399ff;
+
+    background: -webkit-radial-gradient( rgba(0,255,0,1) , rgba(0,0,225,0));
+    background: -moz-radial-gradient( rgba(0,255,0,1) , rgba(0,0,225,0));
+    background: -o-radial-gradient( rgba(0,255,0,1) , rgba(0,0,225,0));
+    background: radial-gradient( rgba(0,255,0,1) , rgba(0,0,225,0));
+}
+
+.enemyBoxes{
+    box-shadow: inset 0px 0px 6px 1px red;
+
+    background: -webkit-radial-gradient(  rgba(255,0,0,1) , rgba(255,0,0,0));
+    background: -moz-radial-gradient( rgba(255,0,0,1) , rgba(255,0,0,0));
+    background: -o-radial-gradient( rgba(255,0,0,1) , rgba(255,0,0,0));
+    background: radial-gradient( rgba(255,0,0,1) , rgba(255,0,0,0));
+
+}
